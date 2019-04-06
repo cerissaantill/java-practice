@@ -1,7 +1,7 @@
 
 
 /*
-Write a class with the name SimpleCalculator. The class needs two fields (instance variables) with names firstNumber and secondNumber both of type double.
+Write a class with the name SumCalculator. The class needs two fields (instance variables) with names firstNumber and secondNumber both of type double.
 
 Write the following methods (instance methods):
 
@@ -17,7 +17,7 @@ Write the following methods (instance methods):
 TEST EXAMPLE
 
 TEST CODE:
-SimpleCalculator calculator = new SimpleCalculator();
+SumCalculator calculator = new SumCalculator();
 calculator.setFirstNumber(5.0);
 calculator.setSecondNumber(4);
 System.out.println("add= " + calculator.getAdditionResult());
@@ -46,7 +46,7 @@ NOTE: Do not add the main method to the solution code.
 */
 
 
-    public class SimpleCalculator {
+    public class SumCalculator {
 
 
         private double firstNumber;
@@ -97,4 +97,4 @@ NOTE: Do not add the main method to the solution code.
 
 
 
-}  // SimpleCalculator class
+}  // SumCalculator class
