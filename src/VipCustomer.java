@@ -21,17 +21,17 @@ public class VipCustomer {
 
     // Fields
 
-    private String customerName;
-    private double customerCreditLimit;
-    private String customerEmailAddress;
+    private String name;
+    private double creditLimit;
+    private String emailAddress;
 
 
     // 1st Constructor
 
-    public VipCustomer(String customerName, double customerCreditLimit, String customerEmailAddress) {
-        this.customerName = customerName;
-        this.customerCreditLimit = customerCreditLimit;
-        this.customerEmailAddress = customerEmailAddress;
+    public VipCustomer(String name, double creditLimit, String emailAddress) {
+        this.name = name;
+        this.creditLimit = creditLimit;
+        this.emailAddress = emailAddress;
     }
 
 
@@ -55,16 +55,16 @@ public class VipCustomer {
 
     // Getters:
 
-    public String getCustomerName() {
-        return this.customerName;
+    public String getName() {
+        return this.name;
     }
 
-    public double getCustomerCreditLimit() {
-        return this.customerCreditLimit;
+    public double getCreditLimit() {
+        return this.creditLimit;
     }
 
-    public String getCustomerEmailAddress() {
-        return this.customerEmailAddress;
+    public String getEmailAddress() {
+        return this.emailAddress;
     }
 
 
