@@ -18,7 +18,24 @@ public class AccountMain {
         // Add some System.out.println's in the two methods above as well.
 
 
+        Account bobsAccount = new Account();
 
+        // control N will auto-populate the constructors below:
+
+        bobsAccount.setNumber("12345");
+        bobsAccount.setBalance(0.00);
+        bobsAccount.setCustomerName("Bob Brown");
+        bobsAccount.setCustomerEmailAddress("myemail@bob.com");
+        bobsAccount.setCustomerPhoneNumber("(087)345-6789");
+
+
+        bobsAccount.withdrawal(100.00);
+
+        bobsAccount.deposit(50.00);
+        bobsAccount.withdrawal(100.00);
+
+        bobsAccount.deposit(51.00);
+        bobsAccount.withdrawal(100.00);
 
 
 

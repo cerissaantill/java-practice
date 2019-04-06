@@ -28,21 +28,28 @@ public class Account {
     //  to auto-populate the getters and setters.
 
 
+    public Account() {
+        System.out.println("Empty constructor called.");
+    }
+
+
     // method 1:
+
     public void deposit(double depositAmount) {
         this.balance += depositAmount;
+        System.out.println("Deposit of " + depositAmount + " made. New balance is " + this.balance);
     }
+
+    // method 2:
 
     public void withdrawal(double withdrawalAmount) {
-        if (balance - withdrawalAmount < 0) {
-            System.out.println("Only " + balance + " available. Withdrawal not able to be processed.");
+        if (this.balance - withdrawalAmount < 0) {
+            System.out.println("Only " + this.balance + " available. Withdrawal not able to be processed.");
         } else {
-            balance -= withdrawalAmount;
-            System.out.println();
+            this.balance -= withdrawalAmount;
+            System.out.println("Withdrawal of " + withdrawalAmount + " processed. Remaining balance = " + this.balance);
         }
     }
-
-
 
 
 
