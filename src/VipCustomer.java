@@ -26,6 +26,8 @@ public class VipCustomer {
     private String emailAddress;
 
 
+////////////////////////////////
+
     // 1st Constructor
 
     public VipCustomer(String name, double creditLimit, String emailAddress) {
@@ -38,9 +40,8 @@ public class VipCustomer {
 
     // 2nd Constructor
 
-    public VipCustomer() {
-    this("Cerissa Tottenham", 9000, "cerissa@email.com");
-        System.out.println("Empty (2nd) Constructor called.");
+    public VipCustomer(String name, double creditLimit) {
+        this(name, creditLimit, "unknown@email.com");
     }
 
 
@@ -48,9 +49,10 @@ public class VipCustomer {
     // 3rd Constructor
 
     public VipCustomer() {
-
+        this("Default name", 50000.00, "default@email.com");
     }
 
+///////////////////////////////
 
 
     // Getters:
