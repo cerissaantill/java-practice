@@ -29,18 +29,20 @@ public class TreeStory {
 
         System.out.print("\nEnter an adjective: ");
         String adjective = scanner.nextLine();
+        String noun;  // declaring noun outside the do-while to give it global scope
 
+        do {
+            System.out.print("\nEnter a noun: ");
+            noun = scanner.nextLine();
 
-        System.out.print("\nEnter a noun: ");
-        String noun = scanner.nextLine();
+            // Sensor code block using Logical Or
+            if (noun.equalsIgnoreCase("dork") ||
+                    noun.equalsIgnoreCase("jerk") ||
+                    noun.equalsIgnoreCase("nerd")) {
+                System.out.println("That language is not allowed. Try again. \n\n");
+            }
+        } while(noun.equalsIgnoreCase("dork") || noun.equalsIgnoreCase("jerk"));
 
-        // Sensor code block:
-        if (noun.equalsIgnoreCase("dork")) {
-
-            System.out.println("That language is not allowed. Exiting. \n\n");
-
-            System.exit(0);
-        }
 
 
         System.out.print("\nEnter an adverb: ");
