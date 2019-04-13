@@ -29,8 +29,10 @@ public class TreeStory {
 
         System.out.print("\nEnter an adjective: ");
         String adjective = scanner.nextLine();
+
         String noun;             // declaring noun outside the do-while to give it global scope
         boolean isInvalidWord;  //  declaring boolean globally
+
         do {
             System.out.print("\nEnter a noun: ");
             noun = scanner.nextLine();
