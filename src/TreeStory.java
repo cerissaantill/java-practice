@@ -30,8 +30,18 @@ public class TreeStory {
         System.out.print("\nEnter an adjective: ");
         String adjective = scanner.nextLine();
 
+
         System.out.print("\nEnter a noun: ");
         String noun = scanner.nextLine();
+
+        // Sensor code block:
+        if (noun.equalsIgnoreCase("dork")) {
+
+            System.out.println("That language is not allowed. Exiting. \n\n");
+
+            System.exit(0);
+        }
+
 
         System.out.print("\nEnter an adverb: ");
         String adverb = scanner.nextLine();
