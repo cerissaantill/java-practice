@@ -1,3 +1,7 @@
+package udemy;
+
+import udemy.Account;
+
 public class AccountMain {
 
     public static void main(String[] args) {
@@ -20,7 +24,7 @@ public class AccountMain {
 
         Account bobsAccount = new Account(); // "12345",0.00,"Bob Brown",
                // "myemail@bob.com","(087)345-6789"
-        System.out.println("Account constructor with parameters called. (AccountMain)");
+        System.out.println("udemy.Account constructor with parameters called. (udemy.AccountMain)");
         System.out.println(bobsAccount.getNumber());
         System.out.println(bobsAccount.getBalance());
 

@@ -1,5 +1,5 @@
-
-// Create a new class VipCustomer.
+package udemy;
+// Create a new class udemy.VipCustomer.
 
 // It should have 3 fields: name, credit limit, email address.
 
@@ -73,4 +73,4 @@ public class VipCustomer {
 
 
 
-}  //VipCustomer class
+}  //udemy.VipCustomer class

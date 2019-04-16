@@ -1,7 +1,7 @@
-
+package udemy;
 
 /*
-Write a class with the name SumCalculator. The class needs two fields (instance variables) with names firstNumber and secondNumber both of type double.
+Write a class with the name udemy.SumCalculator. The class needs two fields (instance variables) with names firstNumber and secondNumber both of type double.
 
 Write the following methods (instance methods):
 
@@ -17,7 +17,7 @@ Write the following methods (instance methods):
 TEST EXAMPLE
 
 TEST CODE:
-SumCalculator calculator = new SumCalculator();
+udemy.SumCalculator calculator = new udemy.SumCalculator();
 calculator.setFirstNumber(5.0);
 calculator.setSecondNumber(4);
 System.out.println("add= " + calculator.getAdditionResult());
@@ -97,4 +97,4 @@ NOTE: Do not add the main method to the solution code.
 
 
 
-}  // SumCalculator class
+}  // udemy.SumCalculator class

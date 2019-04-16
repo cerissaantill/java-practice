@@ -1,6 +1,8 @@
+package InterviewPractice;
+
 import java.util.Arrays;
 
-public class TargetArrays_InterviewPractice {
+public class TargetArrays {
 
         public static void main(String[] args) {
             // NOTE: You can use the following input values to test this function.
@@ -64,7 +66,7 @@ public class TargetArrays_InterviewPractice {
 
         }  // main method
 
-    }  // TargetArrays_InterviewPractice class
+    }  // InterviewPractice.TargetArrays class
 
 
 

@@ -1,3 +1,7 @@
+package udemy;
+
+import udemy.VipCustomer;
+
 public class VipCustomerMain {
 
     public static void main(String[] args) {
@@ -17,4 +21,4 @@ public class VipCustomerMain {
 
     }  // main method
 
-}  // VipCustomerMain class
+}  // udemy.VipCustomerMain class
