@@ -1,11 +1,9 @@
 package InterviewPractice;
 
-
 //    1. Sort through an array of strings or numbers, return a boolean if it exists.
 //        “You’re going to loop through the array and compare it to each item in the array.”
 
 //   *** BE ABLE TO DO THIS ON A WHITEBOARD IN Java & JavaScript ****
-
 
 
 public class NumbersArray {
