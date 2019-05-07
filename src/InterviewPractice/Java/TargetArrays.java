@@ -1,4 +1,4 @@
-package InterviewPractice;
+package InterviewPractice.Java;
 
 import java.util.Arrays;
 
@@ -66,7 +66,7 @@ public class TargetArrays {
 
         }  // main method
 
-    }  // InterviewPractice.TargetArrays class
+    }  // InterviewPractice.Java.TargetArrays class
 
 
 

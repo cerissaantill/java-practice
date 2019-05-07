@@ -1,4 +1,4 @@
-package InterviewPractice;
+package InterviewPractice.Java;
 
 //    1. Sort through an array of Numbers, return a boolean if it exists.
 //        “You’re going to loop through the array and compare it to each item in the array.”

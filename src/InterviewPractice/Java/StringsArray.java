@@ -1,4 +1,4 @@
-package InterviewPractice;
+package InterviewPractice.Java;
 
 import java.lang.String;
 
