@@ -1,6 +1,5 @@
 package InterviewPractice.Java;
 import java.lang.String;
-import java.util.*;
 
 
 public class FizzBuzz {
