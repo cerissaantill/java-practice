@@ -2,12 +2,13 @@ package InterviewPractice;
 
 import java.lang.String;
 
+// 1.  Sort through an array of Strings, return a boolean if it exists.
+//      “You’re going to loop through the array and compare it to each item in the array.”
 
 // BE ABLE TO DO THIS ON A WHITEBOARD IN Java & JavaScript ****
 
 
 public class StringsArray {
-
 
     static boolean search(String[] array, String searchTerm) {
         boolean found = false;
