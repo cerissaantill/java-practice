@@ -7,7 +7,7 @@ import java.lang.String;
 //   for the multiples of five print “Buzz”.
 //   For numbers which are multiples of both three and five print “FizzBuzz”.
 
-// ask the interviewer for the max number.
+// ** ask the interviewer for the max number.
 
 
 
@@ -29,3 +29,25 @@ public class FizzBuzz {
 
     }  // main method
 }  // FizzBuzz class
+
+
+
+
+// refactored to put it in order of the problem:
+
+class FizzBuzz2 {
+
+    public static void main(String[] args) {
+        for (int i = 1; i <=100; i++) {
+            if (i % 3 == 0) {
+                System.out.println("Fizz");
+
+            } else if (i % 5 == 0) {
+                System.out.println("Buzz");
+
+            } else if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println("FizzBuzz");
+            }
+        }
+    }
+}
