@@ -20,7 +20,7 @@ public class StringsArray {
 
     public static void main(String[] args) {
 
-        String[] fruit = {"Apple", "Banana", "Mango", "Durian", "Kiwi"};
+        String[] fruit = {"Apple", "Banana", "Mango", "Cherry", "Kiwi"};
         String favoriteFruit = "Mango";
         System.out.println(search(fruit, favoriteFruit));
     }
