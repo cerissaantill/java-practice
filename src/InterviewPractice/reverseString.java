@@ -9,12 +9,12 @@ public class reverseString {
 
     public static void main(String[] args) {
 
-        String reverse = "cerissa";
-
-        for (int i = reverse.length()-1; i--) {
-            reverse = reverse + reverse.charAt(i);
-        }
-            System.out.println(reverse);
+//        String reverse = "cerissa";
+//
+//        for (int i = reverse.length()-1; i--) {
+//            reverse = reverse + reverse.charAt(i);
+//        }
+//            System.out.println(reverse);
 
 
 
